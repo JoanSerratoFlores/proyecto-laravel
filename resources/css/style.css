@@ -1,0 +1,135 @@
+.form .avatar{
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.navbar .container-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius:900px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.container-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius:900px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.navbar .container-avatar img,
+.pub_image .container-avatar img{
+    height: 100%;
+    width: 100%;
+}
+
+.pub_image{
+    margin-bottom: 25px;
+}
+
+.pub_image .container-avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.pub_image .data-user a{
+    color: #444
+}
+
+.pub_image .nickname{
+    color:gray;
+}
+
+.image-container{
+    max-height: fit-content;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-detail{
+    max-height: fit-content;
+}
+
+.image-container img {
+    max-height: fit-content;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pub-image .card-body{
+    padding: 0px;
+}
+
+.pub-image .description{
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.pub-image .btn-comments{
+    margin: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.likes{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.likes img{
+    width: 20px;
+}
+
+.pub_image_detail .comments{
+    padding: 20px;
+}
+
+.number_likes{
+    color: gray;
+    font-size: 11px;
+}
+
+.profile-user {
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.profile-user .container-avatar{
+    width:200px;
+    height: 200px;
+    border-radius: 900px;
+    overflow: hidden;
+    float: left;
+
+}
+
+.profile-user .container-avatar img{
+    height: inherit;
+    width: inherit;
+}
+.container-avatar img{
+    height: inherit;
+    width: inherit;
+}
+
+.profile-user .user-info{
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.btn-search{
+    margin-left: 0px;
+    padding-left: 0px;
+
+}

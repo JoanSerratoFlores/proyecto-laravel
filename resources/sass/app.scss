@@ -1,0 +1,128 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.form .avatar{
+    width: 55px;
+    margin-bottom: 15px;
+}
+.navbar .container-avatar,
+.pub_image .container-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius:900px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.pub_image{
+    margin-bottom: 25px;
+}
+
+.navbar .container-avatar img,
+.pub_image .container-avatar img{
+    height: 100%;
+}
+
+.pub_image .container-avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 35px;
+}
+.pub_image .data-user a{
+    color:#444;
+}
+
+.pub_image .nickname{
+    color:gray;
+}
+
+.image-container{
+    max-height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+
+image-container img{
+    width: 100%;
+}
+
+.pub-image .card-body{
+    padding: 0px;
+}
+
+.pub-image .description{
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.pub-image .btn-comments{
+    margin: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.likes{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.likes img{
+    width: 20px;
+}
+
+.image-detail{
+    max-height: 500px;
+}
+
+.pub_image_detail .comments{
+    padding: 20px;
+}
+
+.profile-user {
+
+    height: 200px;
+    
+
+}
+
+.profile-user .container-avatar{
+
+    width:100px;
+    height: 100px;
+    border-radius: 900px;
+    overflow: hidden;
+    float: left;
+
+}
+
+.profile-user .container-avatar img{
+
+    height: 100%;
+
+}
+
+.profile-user .user-info{
+
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.btn-search{
+    
+    margin-left: 0px;
+    padding-left: 0px;
+    
+}
